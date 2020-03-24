@@ -3,5 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>FirstMapping</servlet-name>
+        <servlet-class>com.sysoiev.mapping.MappingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstMapping</servlet-name>
+        <url-pattern>/mapping</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>SecondMapping</servlet-name>
+        <servlet-class>com.sysoiev.mapping_parameters.MappingParametersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondMapping</servlet-name>
+        <url-pattern>/params</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>message</param-name>
+        <param-value>Hello from params !!!</param-value>
+    </context-param>
 </web-app>

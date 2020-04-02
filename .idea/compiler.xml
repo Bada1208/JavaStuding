@@ -9,6 +9,7 @@
         <module name="jstl" />
         <module name="servlets" />
         <module name="jsp" />
+        <module name="springmvccrud" />
         <module name="springmvc" />
       </profile>
     </annotationProcessing>

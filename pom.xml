@@ -13,6 +13,7 @@
         <module>jsp</module>
         <module>jstl</module>
         <module>springmvc</module>
+        <module>springmvccrud</module>
     </modules>
 
 

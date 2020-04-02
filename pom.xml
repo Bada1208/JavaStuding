@@ -12,6 +12,7 @@
         <module>servlets</module>
         <module>jsp</module>
         <module>jstl</module>
+        <module>springmvc</module>
     </modules>
 
 
